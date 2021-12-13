@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+section{
+    width: 1170px;
+    max-width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+.card-img-top{
+    height: 170px;
+}
+.btn{
+ background-color: black;
+}
+article{
+   
+    width: 90VW;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.error{
+    text-align: center;
+    margin-top: 10rem;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1000px) {
+     section{
+         grid-template-columns: 1fr 1fr;
+     }   
+}
+@media screen and (max-width:660px) {
+    section{
+         grid-template-columns: 1fr;
+     }  
+}
+
